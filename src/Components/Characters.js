@@ -37,11 +37,11 @@ export default function Characters(props) {
                 )}
               </h6>
               <p>
-                <span className="text-grey">Episodios: </span>
+                <span className="text-green">Capitulos: </span>
                 <span>{character.episode.length}</span>
               </p>
               <p>
-                <span className="text-grey">Especie: </span>
+                <span className="text-green">Especie: </span>
                 <span>{character.species}</span>
               </p>
             </div>
@@ -49,7 +49,7 @@ export default function Characters(props) {
         ))}
       </div>
       <span className="back-home" onClick={resetCharacters}>
-        Volver a la home
+        Inicio
       </span>
     </div>
   );
